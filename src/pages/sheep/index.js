@@ -18,9 +18,6 @@ export default function ButtonCounter() {
       setCount(count - 2)
     }    
    }
-   function customeIncrease() {
-    setCount(count + "customInput")
-   }
    function buttonReset() {
     setCount(0);
    }
@@ -35,7 +32,6 @@ export default function ButtonCounter() {
       <hr></hr>
       <button onClick={buttonDoubleDecrease}>-2</button>
       <hr></hr>
-      <label>Increase by: <input name="customInput" /></label>
       <button onClick={buttonReset}>Reset</button>
       <br>
       </br>
